@@ -1,0 +1,79 @@
+.mainCourseContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  padding: 0 7%;
+  margin: 80px 0;
+}
+
+.allContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px 10%;
+}
+
+.searchBarContainer h2 {
+  color: var(--primary-blue);
+  font-weight: 600;
+  font-size: 38px;
+  margin: 18px 0;
+}
+
+.searchBarContainer p {
+  color: var(--link-color);
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 23px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(241, 241, 241);
+}
+
+.searchBar button {
+  border: none;
+  padding: 20px 28px;
+  border-radius: 5px;
+  background-color: var(--primary-blue);
+  color: #fefefe;
+  font-weight: 700;
+  position: absolute;
+  outline: none;
+  right: 3px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.searchBar button:hover {
+  background-color: var(--btn-hover);
+}
+
+@media screen and (max-width: 1463px) {
+  .mainCourseContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1149px) {
+  .mainCourseContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .mainCourseContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #1d232a;
+  --text-color: #fefefe;
+  --link-color: #a6adbb;
+  --header-color: #2a323c;
+  --footer-color: #374151;
+  --primary-blue: #3b82f6;
+  --secondary-blue: rgb(63, 41, 151);
+  --btn-hover: #14191e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.paginationBtn {
+  padding: 10px 15px;
+  border: none;
+  margin: 40px 7px;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: #374151;
+  color: #fefefe;
+  cursor: pointer;
+}

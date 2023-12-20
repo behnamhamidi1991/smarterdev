@@ -1,0 +1,111 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "HTML & CSS Complete Course",
+      "students": 249,
+      "completed": true,
+      "price": 99,
+      "imgUrl": "./src/assets/images/html.JPG"
+    },
+
+    {
+      "id": 2,
+      "title": "JavaScript Full Course",
+      "students": 452,
+      "completed": true,
+      "price": 139,
+      "imgUrl": "./src/assets/images/js.JPG"
+    },
+
+    {
+      "id": 3,
+      "title": "React JS Bootcamp",
+      "students": 873,
+      "completed": true,
+      "price": 299,
+      "imgUrl": "./src/assets/images/react.JPG"
+    },
+
+    {
+      "id": 4,
+      "title": "Next JS Crash Course",
+      "students": 83,
+      "completed": false,
+      "price": 220,
+      "imgUrl": "./src/assets/images/next.JPG"
+    },
+
+    {
+      "id": 5,
+      "title": "MongoDB Crash Course",
+      "students": 24,
+      "completed": true,
+      "price": 35,
+      "imgUrl": "./src/assets/images/mongodb.JPG"
+    },
+
+    {
+      "id": 6,
+      "title": "Node.js Crash Course",
+      "students": 118,
+      "completed": true,
+      "price": 80,
+      "imgUrl": "./src/assets/images/node.JPG"
+    },
+
+    {
+      "id": 7,
+      "title": "PHP Full Bootcamp",
+      "students": 418,
+      "completed": true,
+      "price": 399,
+      "imgUrl": "./src/assets/images/php.JPG"
+    },
+
+    {
+      "id": 8,
+      "title": "Python | Django Full Course",
+      "students": 562,
+      "completed": false,
+      "price": 225,
+      "imgUrl": "./src/assets/images/py.JPG"
+    },
+
+    {
+      "id": 9,
+      "title": "Redux | Redux with React",
+      "students": 227,
+      "completed": false,
+      "price": 136,
+      "imgUrl": "./src/assets/images/redux.JPG"
+    },
+
+    {
+      "id": 10,
+      "title": "SQL Server Crash Course",
+      "students": 58,
+      "completed": true,
+      "price": 49,
+      "imgUrl": "./src/assets/images/sql.JPG"
+    },
+
+    {
+      "id": 11,
+      "title": "Wordpress for Beginners",
+      "students": 691,
+      "completed": false,
+      "price": 95,
+      "imgUrl": "./src/assets/images/wp.JPG"
+    },
+
+    {
+      "id": 12,
+      "title": "Java Complete Bootcamp",
+      "students": 285,
+      "completed": false,
+      "price": 280,
+      "imgUrl": "./src/assets/images/java.JPG"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.pageTitle {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.pageSubTitle {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: var(--primary-blue);
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}

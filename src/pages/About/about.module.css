@@ -1,0 +1,87 @@
+.about {
+  margin: 50px 0;
+  padding: 0 15%;
+}
+
+.about h2 {
+  font-size: 70px;
+  font-weight: 300;
+  color: var(--link-color);
+  text-transform: uppercase;
+}
+
+.about h4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--link-color);
+}
+
+.about p {
+  margin: 20px;
+  line-height: 2;
+}
+
+.skills {
+  display: flex;
+}
+
+.listSkill {
+  list-style: none;
+  text-decoration: none;
+  margin: 0 20px;
+  background-color: var(--btn-hover);
+  padding: 19px 35px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contactBtn {
+  padding: 20px 40px;
+  margin: 90px 40px;
+  border-radius: 10px;
+  background-color: var(--primary-blue);
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all ease-in-out 0.2s;
+}
+
+.contactBtn:hover {
+  background-color: var(--btn-hover);
+}
+
+.experiences {
+  margin: 40px 0;
+  padding: 0 30px;
+}
+
+.experiences h4 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.experiences li {
+  margin: 20px 40px;
+}
+
+@media screen and (max-width: 1354px) {
+  .skills {
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .about h2 {
+    font-size: 48px;
+    margin: 5px;
+  }
+
+  .about {
+    padding: 0 4%;
+  }
+}
